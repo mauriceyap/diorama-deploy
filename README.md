@@ -7,9 +7,9 @@ Deploy Diorama to your own VM.
 ### Your real machine
 You need [Python](https://www.python.org/downloads/) (either 2.7 or 3.5+ are
 okay) installed on your Unix machine, as well as
-[pip](https://pip.pypa.io/en/stable/installing/). Windows isn't supported, so
-sorry if that's what you're using. You can find out if you have these already
-installed by running:
+[pip](https://pip.pypa.io/en/stable/installing/). Unless you're using Windows
+10's Subsystem for Linux, Windows isn't supported, so sorry if that's what
+you're using. You can find out if you have these already installed by running:
 ```bash
 which python
 which pip
