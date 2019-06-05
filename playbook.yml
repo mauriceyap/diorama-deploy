@@ -170,3 +170,12 @@
 
   - name: run supervisord
     command: supervisord
+
+  - name: stop supervisor
+    become: yes
+    service:
+      name: supervisor
+      state: stopped
+
+  - name: run supervisord
+    command: supervisord
