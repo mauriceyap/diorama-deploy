@@ -170,25 +170,3 @@
 
   - name: run supervisord
     command: supervisord
-
-  - name: stop supervisor
-    become: yes
-    service:
-      name: supervisor
-      state: stopped
-
-  - name: kill supervisord process
-    become: yes
-    command: pkill supervisord
-    register: pkill_cmd
-    failed_when: pkill_cmd.rc > 1
-
-
-  - name: unlink supervisord sock file
-    become: yes
-    file:
-      path: /tmp/supervisor.sock
-      state: absent
-
-  - name: run supervisord
-    command: supervisord
