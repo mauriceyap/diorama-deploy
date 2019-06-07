@@ -17,7 +17,7 @@ which pip
 
 Next, install Ansible by running:
 ```bash
-sudo pip install ansible
+pip install ansible
 ```
 
 ### Your virtual machine
