@@ -19,6 +19,7 @@ Next, install Ansible by running:
 ```bash
 sudo pip install ansible
 ```
+If you don't have permissions to run sudo, run it without, and then inside the `deploy.sh` file, replace `ansible-playbook` with the path to your ansible playbook executable (for example, `~/.local/bin/ansible-playbook`).
 
 ### Your virtual machine
 Set up an Ubuntu VM - you could use [VirtualBox](https://www.virtualbox.org/) or
