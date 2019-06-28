@@ -38,5 +38,6 @@ on how to do that if you're not sure.
 
 For example, `./deploy.sh 192.168.0.123 alice`.
 
-Hopefully 🤞, that will run. After it's finished, you can open the web interface
-by visiting your VM's IP address in your browser.
+Restart your VM and then hopefully 🤞, *Diorama* will be running. After it's
+finished, you can open the web interface by visiting your VM's IP address in
+your browser.
